@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".fragment1">
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:text="Sum Natural"
+        android:textAlignment="center"
+        android:textColor="@color/purple_700"
+        android:textSize="34sp" />
+
+    <TextView
+        android:id="@+id/labelnum"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14sp"
+        android:text="Enter Number:"
+        android:textColor="@color/purple_700"
+        android:textSize="20sp" />
+
+    <EditText
+        android:id="@+id/num"
+        android:layout_width="380dp"
+        android:layout_height="70dp"
+        android:inputType="number"
+        android:padding="8dp"
+        android:hint="enter a number"/>
+
+    <Button
+        android:id="@+id/sum"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Calculate"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:id="@+id/result"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="14sp"
+        android:text="Result"
+        android:textColor="@color/purple_700" />
+
+</LinearLayout>
