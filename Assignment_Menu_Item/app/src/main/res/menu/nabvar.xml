@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <item
+        android:id="@+id/kumar"
+        android:title="Coo_Mar"
+        app:showAsAction="ifRoom"/>
+
+    <item
+        android:id="@+id/bookmarks"
+        android:title="BookMarks">
+        <manu>
+            <item
+                android:id="@+id/website"
+                android:title="Website"
+                />
+            <item
+                android:id="@+id/mobile"
+                android:title="Mobile"
+                />
+        </manu>
+    </item>
+
+
+    <item
+        android:id="@+id/history"
+        android:title="History"
+        />
+    <item
+        android:id="@+id/share"
+        android:title="Share"
+        />
+    <item
+        android:id="@+id/desktopsite"
+        android:title="Desktop Site"
+        />
+</menu>
