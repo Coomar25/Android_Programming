@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Income_Expense_Tracker</string>
+    <string-array name="title_array">
+        <item>Income</item>
+        <item>Expense</item>
+    </string-array>
+</resources>
